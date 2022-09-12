@@ -18,7 +18,7 @@ https://nodejs.org/en/download/ - NodeJS, clique em Windows Installer e instale 
 
 Indicam o tipo de arquivo, é o que vem depois do `.` no nome dos arquivos. Na imagem abaixo, marcado em vermelho, vemos que há dois arquivos com extensão `.js` e outro arquivo com extensão `.txt`
 
-![image-20220911205425774](/.screenshots/image-20220911205425774.png)
+![image-20220911205425774](/screenshots/image-20220911205425774.png)
 
 Arquivos JavaScript têm extensão `.js` e são os que iremos trabalhar.
 
@@ -230,7 +230,7 @@ let listaDeCompras = ['Maçã', 'Banana', 'Uva'];
 
 A contagem dos elementos de uma lista começa sempre do `0`. Quando nos referimos à posição de uma lista estamos nos referindo ao **índice** (*index*). No nosso exemplo, `Maçã` está no índice 0 da lista `listaDeCompras`.
 
-![image-20220911213419991](/.screenshots/image-20220911213419991.png)
+![image-20220911213419991](/screenshots/image-20220911213419991.png)
 
 Para acessar elementos específicos de uma lista, primeiro escrevemos o nome da variável da lista e junto dela escrevemos o índice que queremos dentro de `[]`. Para o primeiro elemento escrevemos `listaDeCompras[0]`. Para o segundo elemento escrevemos `listaDeCompras[1]` e assim sucessivamente.
 
