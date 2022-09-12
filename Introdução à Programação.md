@@ -2,7 +2,6 @@
 
 
 
-[TOC]
 
 
 
@@ -12,7 +11,7 @@ https://code.visualstudio.com/ - VSCode, clique em Download for Windows e instal
 
 https://nodejs.org/en/download/ - NodeJS, clique em Windows Installer e instale sem alterar nada
 
-
+<br>
 
 ## Extensões de arquivo / Formato de arquivo
 
@@ -22,7 +21,7 @@ Indicam o tipo de arquivo, é o que vem depois do `.` no nome dos arquivos. Na i
 
 Arquivos JavaScript têm extensão `.js` e são os que iremos trabalhar.
 
-
+<br>
 
 ## Comandos terminal
 
@@ -30,13 +29,13 @@ Arquivos JavaScript têm extensão `.js` e são os que iremos trabalhar.
 
 `node nome_do_arquivo.js` roda o arquivo
 
-
+<br>
 
 ## Comandos do VSCode
 
 `CTRL + S`  - Salvar o arquivo atual
 
-
+<br>
 
 ## Exibindo informações no console
 
@@ -51,7 +50,7 @@ let cidade = 'Rio de Janeiro';
 console.log(cidade)
 ```
 
-
+<br>
 
 ## Variáveis
 
@@ -65,7 +64,7 @@ console.log(nome);
 
 No exemplo acima criamos a variável chamada `nome` e o atribuímos o valor `'João'` para ela.
 
-
+<br>
 
 Podemos mudar o valor de uma variável já criada.
 
@@ -81,8 +80,7 @@ console.log(quantidadeDeDias);
 
 No exemplo acima criamos a variável `quantidadeDeDias` com o valor `20` e depois modificamos o valor dessa mesma variável para `10`.
 
-
-
+<br>
 
 ## Constantes
 
@@ -97,7 +95,7 @@ const taxaDeJuros = 10;
 console.log(taxaDeJuros);
 ```
 
-
+<br>
 
 No exemplo acima criamos uma constante chamada `taxaDeJuros` com o valor 10.
 
@@ -112,7 +110,7 @@ console.log(taxaDeJuros);
 No exemplo acima criamos uma constante chamada `taxaDeJuros` com o valor 10 e depois tentamos mudar o valor dessa variável para 20. Ao tentar rodar esse programa, veremos um erro porque tentamos reatribuir o valor de um constante.
 
 
-
+<br>
 
 
 ## Tipos Primitivos
@@ -126,7 +124,7 @@ let nome = 'João';
 let cidade = 'Rio de Janeiro';
 ```
 
-
+<br>
 
 ### Number
 
@@ -139,7 +137,7 @@ let temperatura = -5;
 let saldo = 412345;
 ```
 
-
+<br>
 
 ### Boolean
 
@@ -150,7 +148,7 @@ let executado = true;
 let premium = false;
 ```
 
-
+<br>
 
 ### Undefined
 
@@ -162,7 +160,7 @@ let sobrenome;
 
 No exemplo acima criamos a variável `sobrenome`, mas não demos um valor para ela. Logo essa variável será do tipo indefinido.
 
-
+<br>
 
 ### Null
 
@@ -173,7 +171,7 @@ let saldo = null;
 ```
 
 
-
+<br>
 
 
 ## Tipos de referência
@@ -200,7 +198,7 @@ let pessoa = {
 
 `estado` é uma **chave** e `'Pernambuco'` é seu **valor**
 
-
+<br>
 
 Podemos acessar cada propriedade de um objeto através do `.` seguido do nome da **chave**. Ou através de `['nomeDaChave']`. No exemplo abaixo acessamos a propriedade `estado` das duas formas:
 
@@ -216,7 +214,7 @@ console.log(pessoa.estado);
 console.log(pessoa['estado']);
 ```
 
-
+<br>
 
 ### List / Array
 
@@ -240,7 +238,7 @@ console.log('Primeiro item ' + listaDeCompras[0]);
 console.log('Terceiro item ' + listaDeCompras[2]);
 ```
 
-
+<br>
 
 ### Function
 
